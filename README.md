@@ -27,14 +27,40 @@ Jeśli wszystko jest zrobione poprawnie, w bazie danych powinien pokazać się n
 **Cel zadania:** <br>
 Połączenie poprzedniego zadania z frontendem, funkcja register. <br>
 W katalogu 2 znajdują się 2 projekty, zadanie_2_backend i zadanie_2_backend, tym razem w backendzie nie trzeba nic zmieniać, 
-będzie on tylko potrzebny do testowania.
+będzie on tylko potrzebny do testowania. <br>
 **Polecenia:** <br>
-W projekcie Zadania_2_frontend w katalogu /src/Components/Fun/Register znajduje się funckja register. Należy w niej stworzyć odpowiednie zapytanie do naszego serwera
-używając biblioteki axios. 
+W projekcie Zadania_2_frontend w katalogu /src/Components/Fun/Register znajduje się funckja register. <br>
+Należy w niej stworzyć odpowiednie zapytanie do naszego serwera
+używając biblioteki axios. <br>
 **Testowanie:** <br>
 Odpal aplikacje backend i frontend. 
 **Uwaga:** aplikacje Zadania_2_frontend odpala się za pomocą komendy **npm start**. <br>
 Stwórz nowego użytkownika, zatwierdź dane i sprawdź czy pojawił się w twojej bazie używająć narzędzia MySQL workbench za pomocą komendy SELECT * FROM acc_mang_database.users_example
+<br>
+# ZADANIE 3
+**Cel zadania:**
+Implementacja mechanizmu logowania użytkownika. <br>
+W tym zadaniu należy dopisać kod zarówno w backendzie, jak i frontendzie. <br>
+**Polecenia:** <br>
+**Frontend:** <br>
+W katalogu /src/Components/Fun/Login znajduje się funckja Login, należy dopisać w niej zapytanie z danymi logowania, analogicznie jak w zadaniu 2. <br>
+**Backend** <br>
+W interfejsie Repository zdefiniuj metodę findByEmail(). <br>
+W klasie UserService dopisz odpowiedni return statement w metodzie getUserByEmail. <br>
+W klasie UserController należy stworzyć obiekt klasy User na podstawie dokończonej implemetacji metody getUserByEmail oraz emailu z zapytania. <br>
+**Testowanie:** <br>
+Odpal aplikacje, analogicznie jak w zadaniu drugim, stwórz użytkownika i spróbuj się zalogować. <br> 
+Jeśli wszystko się udało, powinieneś zobaczyć alert: Zalogowano! 
+
+# ZADANIE 4
+**Cel zadania:** <br>
+Implementacja prostych wyrażeń regularnych.
+**Polecenia:** <br>
+Należy dokończych implemetnacje metod w klasie main dodając odpowiedni pattern wyrażenia regularnego.<br>
+**Testowanie:** <br>
+Modyfikuj zmienną password w celu sprawdzania, czy wyniki w konsoli są takie jak oczekiwano <br>
+
+
 
 
 
