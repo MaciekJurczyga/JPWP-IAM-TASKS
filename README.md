@@ -33,13 +33,16 @@ Jeśli wszystko jest zrobione poprawnie, w bazie danych powinien pokazać się n
 # ZADANIE 2
 **Cel zadania:** <br>
 Połączenie poprzedniego zadania z frontendem, dokończenie implementacji funckji register. <br>
+
 **Wprowadzenie:**
 W katalogu 2 znajdują się 2 projekty, zadanie_2_frontend i zadanie_2_backend, tym razem w backendzie nie trzeba nic zmieniać, 
 będzie on tylko potrzebny do testowania. <br>
+
 **Polecenia:** <br>
 W projekcie Zadania_2_frontend w katalogu /src/Components/Fun/Register znajduje się funckja register. <br>
 Należy w niej stworzyć odpowiednie zapytanie do naszego serwera
 używając biblioteki axios. <br>
+
 **Testowanie:** <br>
 Odpal aplikacje backend i frontend. <br>
 **Uwaga:** aplikacje Zadania_2_frontend odpala się za pomocą komendy **npm start**. <br>
@@ -69,10 +72,13 @@ W katalogu /src/Components/Fun/Login znajduje się funckja Login, należy dopisa
 - Jeśli wszystko się udało, powinieneś zobaczyć alert: Zalogowano! 
 
 # ZADANIE 4
+
 **Cel zadania:** <br>
 Implementacja prostych wyrażeń regularnych. <br>
+
 **Polecenia:** <br>
 Należy dokończych implemetnacje metod w klasie main dodając odpowiedni pattern wyrażenia regularnego.<br>
+
 **Testowanie:** <br>
 Modyfikuj zmienną password w celu sprawdzania, czy wyniki w konsoli są takie jak oczekiwano <br>
 
