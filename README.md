@@ -1,10 +1,10 @@
 # JPWP-IAM-TASKS
 # ZADANIA DO CZĘŚCI PRAKTYCZNEJ
-Zadania 1 - 3 polegają na zbudowaniu prostego Identity and Access Management system.
-Zadanie 4 to zadanie na wykorzystanie wyrażeń regulranych.
-Poniżej znajdziecie instrukcje, jednak w kodzie są też dokładniejsze komenatrze w miejsach, 
+- Zadania 1 - 3 polegają na zbudowaniu prostego Identity and Access Management system.
+- Zadanie 4 to zadanie na wykorzystanie wyrażeń regulranych.
+- Poniżej znajdziecie instrukcje, jednak w kodzie są też dokładniejsze komenatrze w miejsach, 
 w których neleży wpisać kod. 
-W zadaniach 1-3, każde kolejne zadanie ma już zaimplementowany kod z poprzednich, więc w razie problemów można tam zaglądnąć. 
+- W zadaniach 1-3, każde kolejne zadanie ma już zaimplementowany kod z poprzednich, więc w razie problemów można tam zaglądnąć. 
 <br>
 # ZADANIE 1 
 **Cel zadania**: 
