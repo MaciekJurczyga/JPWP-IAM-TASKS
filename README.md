@@ -20,7 +20,7 @@ W klasie UserServcie stworzyć pole reprezentujące nasze repozytorium. <br>
 **Testowanie:**  <br>
 Odpal aplikację, następnie z poziomu terminala wykonaj polecenie: <br>
 Invoke-WebRequest -Uri "http://localhost:8080/api/users" -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"name": "enter_name", "email": "enter_email", "password": "enter_password"}' <br>
-Komenda ta sprawi, ze wyślemy zapytanie z odpowiednimy danymi do rejestracji. <br>
+Komenda ta sprawi, ze wyślemy zapytanie z odpowiednimi danymi do rejestracji. <br>
 Jeśli wszystko jest zrobione poprawnie, w bazie danych powinien pokazać się nowo stworzony user, możesz to sprawdzić używając narzędzia MySQL Workbench. <br>
 <br>
 # ZADANIE 2
