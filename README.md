@@ -14,7 +14,7 @@ Projekt zawiera szkielet aplikacji w springu, pozwalający na komunikacje z baz�
 oraz przechwytywanie rządań z przeglądarki. <br>
 **Polecenia:**  
 W klasie User stworzyć 4 kolumny w bazie danych, kolejno ID, Name, Email, Password. <br>
-W klasie Repository dopisać odpowiednią klasę, po której dziedziczy nasz interfejs. <br>
+W interfejsie Repository dopisać odpowiednią klasę, po której dziedziczy nasz interfejs. <br>
 W klasie UserController dodać odpowiednią adnotacje do metody createUser. <br>
 W klasie UserServcie stworzyć pole reprezentujące nasze repozytorium. <br>
 **Testowanie:**  <br>
