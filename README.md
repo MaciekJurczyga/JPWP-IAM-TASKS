@@ -8,7 +8,7 @@ W zadaniach 1-3, każde kolejne zadanie ma już zaimplementowany kod z poprzedni
 <br>
 # ZADANIE 1 
 **Cel zadania**: 
-możliwość utworzenia stworzenia konta użytkownika. <br>
+możliwość stworzenia konta użytkownika. <br>
 W tym zadaniu należy otworzyć projekt z katalogu /1/Zadanie_1_backend. <br>
 Projekt zawiera szkielet aplikacji w springu, pozwalający na komunikacje z bazą danych 
 oraz przechwytywanie rządań z przeglądarki. <br>
