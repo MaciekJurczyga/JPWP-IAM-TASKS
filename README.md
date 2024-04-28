@@ -42,7 +42,7 @@ w których neleży wpisać kod.
 
 # ZADANIE 2
 **Cel zadania:** <br>
-Połączenie poprzedniego zadania z frontendem, dokończenie implementacji funckji register. <br>
+- Połączenie poprzedniego zadania z frontendem, dokończenie implementacji funckji register. <br>
 
 **Wprowadzenie:** <br>
 - W katalogu 2 znajdują się 2 projekty, zadanie_2_frontend i zadanie_2_backend, tym razem w backendzie nie trzeba nic zmieniać, 
