@@ -6,6 +6,7 @@
 w których neleży wpisać kod. 
 - W zadaniach 1-3, każde kolejne zadanie ma już zaimplementowany kod z poprzednich, więc w razie problemów można tam zaglądnąć. 
 <br>
+
 # ZADANIE 1 
 **Cel zadania**: 
 możliwość stworzenia konta użytkownika. <br>
