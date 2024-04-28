@@ -6,7 +6,7 @@ Poniżej znajdziecie dokładną instrukcje, jednak w kodzie są też komenatrze 
 w których neleży wpisać kod. 
 
 # ZADANIE 1 
-Cel zadania: możliwość utworzenia stworzenia konta użytkownika.
+Cel zadania: możliwość utworzenia stworzenia konta użytkownika. <br>
 W tym zadaniu należy otworzyć projekt z katalogu /1/Zadanie_1_backend.
 Projekt zawiera szkielet aplikacji w springu, pozwalający na komunikacje z bazą danych
 oraz przechwytywanie rządań z przeglądarki. 
