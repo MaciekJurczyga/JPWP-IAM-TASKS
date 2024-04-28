@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module version="4">
+<module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/Zadanie_3_frontend">
-      <sourceFolder url="file://$MODULE_DIR$/Zadanie_3_frontend/src/Components" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/zadanie2_frontend">
+      <excludeFolder url="file://$MODULE_DIR$/zadanie2_frontend/build" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
