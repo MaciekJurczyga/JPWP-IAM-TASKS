@@ -25,7 +25,7 @@ Jeśli wszystko jest zrobione poprawnie, w bazie danych powinien pokazać się n
 <br>
 # ZADANIE 2
 **Cel zadania:** <br>
-Połączenie poprzedniego zadania z frontendem, funkcja register. <br>
+Połączenie poprzedniego zadania z frontendem, dokończenie implementacji funckji register. <br>
 W katalogu 2 znajdują się 2 projekty, zadanie_2_frontend i zadanie_2_backend, tym razem w backendzie nie trzeba nic zmieniać, 
 będzie on tylko potrzebny do testowania. <br>
 **Polecenia:** <br>
