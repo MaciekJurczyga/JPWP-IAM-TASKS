@@ -7,7 +7,7 @@
     - MySQL + MySQL Workbench (dokładny poradnik na discord)
 - Wiedza potrzebna do wykonania zadań znajduje się na slajdach prezentacji i będzie dokładnie omawiana
 - Wszystkie projekty związane z frontendem odpala się komendą **npm start** w terminalu 
-- W razie pytań, prosze śmiało pytać
+- W razie pytań, prosze śmiało je zadawać
   
 # ZADANIA DO CZĘŚCI PRAKTYCZNEJ
 - Zadania 1 - 3 polegają na zbudowaniu prostego Identity and Access Management system.
