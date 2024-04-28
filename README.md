@@ -1,4 +1,14 @@
 # JPWP-IAM-TASKS
+# ORGANIZACJA 
+- link do [prezentacji](https://docs.google.com/presentation/d/1Hasui90Dc4ljEaAcKJ5oaXwTxmleM88C8cG3NKNK8OQ/edit#slide=id.p)
+- W celu wykonania zadań należy mieć zainstalowane:
+    - Apache Maven
+    - Node.js
+    - MySQL + MySQL Workbench (dokładny poradnik na discord)
+- Wiedza potrzebna do wykonania zadań znajduje się na slajdach prezentacji i będzie dokładnie omawiana
+- Wszystkie projekty związane z frontendem odpala się komendą **npm start** w terminalu 
+- W razie pytań, prosze śmiało pytać
+  
 # ZADANIA DO CZĘŚCI PRAKTYCZNEJ
 - Zadania 1 - 3 polegają na zbudowaniu prostego Identity and Access Management system.
 - Zadanie 4 to zadanie na wykorzystanie wyrażeń regulranych.
@@ -23,10 +33,10 @@ w których neleży wpisać kod.
 - W klasie UserServcie stworzyć pole reprezentujące nasze repozytorium. <br>
 
 **Testowanie:**  <br>
- Odpal aplikację, następnie z poziomu terminala wykonaj polecenie: <br>
+- Odpal aplikację, następnie z poziomu terminala wykonaj polecenie: <br>
  Invoke-WebRequest -Uri "http://localhost:8080/api/users" -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"name": "enter_name", "email": "enter_email", "password": - "enter_password"}' <br>
-Komenda ta sprawi, ze wyślemy zapytanie z odpowiednimi danymi do rejestracji. <br>
-Jeśli wszystko jest zrobione poprawnie, w bazie danych powinien pokazać się nowo stworzony user, możesz to sprawdzić używając narzędzia MySQL Workbench. <br>
+- Komenda ta sprawi, ze wyślemy zapytanie z odpowiednimi danymi do rejestracji. <br>
+- Jeśli wszystko jest zrobione poprawnie, w bazie danych powinien pokazać się nowo stworzony user, możesz to sprawdzić używając narzędzia MySQL Workbench. <br>
 <br>
 
 
@@ -35,24 +45,24 @@ Jeśli wszystko jest zrobione poprawnie, w bazie danych powinien pokazać się n
 Połączenie poprzedniego zadania z frontendem, dokończenie implementacji funckji register. <br>
 
 **Wprowadzenie:** <br>
-W katalogu 2 znajdują się 2 projekty, zadanie_2_frontend i zadanie_2_backend, tym razem w backendzie nie trzeba nic zmieniać, 
+- W katalogu 2 znajdują się 2 projekty, zadanie_2_frontend i zadanie_2_backend, tym razem w backendzie nie trzeba nic zmieniać, 
 będzie on tylko potrzebny do testowania. <br>
 
 **Polecenia:** <br>
-W projekcie Zadania_2_frontend w katalogu /src/Components/Fun/Register znajduje się funckja register. <br>
+- W projekcie Zadania_2_frontend w katalogu /src/Components/Fun/Register znajduje się funckja register. <br>
 Należy w niej stworzyć odpowiednie zapytanie do naszego serwera
 używając biblioteki axios. <br>
 
 **Testowanie:** <br>
-Odpal aplikacje backend i frontend. <br>
-**Uwaga:** aplikacje Zadania_2_frontend odpala się za pomocą komendy **npm start**. <br>
-Stwórz nowego użytkownika, zatwierdź dane i sprawdź czy pojawił się w twojej bazie używająć narzędzia MySQL workbench za pomocą komendy SELECT * FROM acc_mang_database.users_example
+- Odpal aplikacje backend i frontend. <br>
+**UWAGA:** aplikacje Zadania_2_frontend odpala się za pomocą komendy **npm start**. <br>
+- Stwórz nowego użytkownika, zatwierdź dane i sprawdź czy pojawił się w twojej bazie używająć narzędzia MySQL workbench za pomocą komendy SELECT * FROM acc_mang_database.users_example
 <br>
 
 
 # ZADANIE 3
 **Cel zadania:** <br>
-Implementacja mechanizmu logowania użytkownika. <br>
+- Implementacja mechanizmu logowania użytkownika. <br>
 
 **Wprowadzenie:** <br>
 - W katalogu 3 znajdują się dwa projekty, zadanie_3_frontend i zadanie_3_backend
@@ -60,12 +70,12 @@ Implementacja mechanizmu logowania użytkownika. <br>
 
 **Polecenia:** <br>
 - **Frontend:** <br>
-W katalogu /src/Components/Fun/Login znajduje się funckja Login, należy dopisać w niej zapytanie z danymi logowania, analogicznie jak w zadaniu 2. <br>
+   - W katalogu /src/Components/Fun/Login znajduje się funckja Login, należy dopisać w niej zapytanie z danymi logowania, analogicznie jak w zadaniu 2. <br>
 
 - **Backend** <br>
- - W interfejsie Repository zdefiniuj metodę findByEmail(). <br>
- - W klasie UserService dopisz odpowiedni return statement w metodzie getUserByEmail. <br>
- - W klasie UserController należy stworzyć obiekt klasy User na podstawie dokończonej implemetacji metody getUserByEmail oraz emailu z zapytania. <br>
+   - W interfejsie Repository zdefiniuj metodę findByEmail(). <br>
+   - W klasie UserService dopisz odpowiedni return statement w metodzie getUserByEmail. <br>
+   - W klasie UserController należy stworzyć obiekt klasy User na podstawie dokończonej implemetacji metody getUserByEmail oraz emailu z zapytania. <br>
 
 **Testowanie:** <br>
 - Odpal aplikacje, analogicznie jak w zadaniu drugim, stwórz użytkownika i spróbuj się zalogować. <br> 
@@ -74,13 +84,13 @@ W katalogu /src/Components/Fun/Login znajduje się funckja Login, należy dopisa
 # ZADANIE 4
 
 **Cel zadania:** <br>
-Implementacja prostych wyrażeń regularnych. <br>
+- Implementacja prostych wyrażeń regularnych. <br>
 
 **Polecenia:** <br>
-Należy dokończych implemetnacje metod w klasie main dodając odpowiedni pattern wyrażenia regularnego.<br>
+- Należy dokończych implemetnacje metod w klasie main dodając odpowiedni pattern wyrażenia regularnego.<br>
 
 **Testowanie:** <br>
-Modyfikuj zmienną password w celu sprawdzania, czy wyniki w konsoli są takie jak oczekiwano <br>
+- Modyfikuj zmienną password w celu sprawdzania, czy wyniki w konsoli są takie jak oczekiwano <br>
 
 
 
