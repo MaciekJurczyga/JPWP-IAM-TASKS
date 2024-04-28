@@ -8,9 +8,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserService {
 
-    private final Repository userRepository;
-    @Autowired
 
+    // należy stworzyć pole private final naszego Repositroy, nazwij ją userRepository
+
+    // należy użyć adontacji @Autowired, która
     public UserService(Repository userRepository) {
         this.userRepository = userRepository;
     }

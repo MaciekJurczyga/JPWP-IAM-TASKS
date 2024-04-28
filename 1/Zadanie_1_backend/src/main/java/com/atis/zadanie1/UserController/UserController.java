@@ -16,7 +16,8 @@ public class UserController {
         this.userService = userService;
     }
 
-    @PostMapping
+    // dopisz odpowiednią adnotacje endpointu post, która pozwoli tej metodzie
+    // zapisywać dane do bazy danych
     public void createUser(@RequestBody User user) {
         userService.saveUser(user);
     }
