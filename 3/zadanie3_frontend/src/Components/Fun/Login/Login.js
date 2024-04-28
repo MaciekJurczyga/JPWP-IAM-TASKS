@@ -1,22 +1,16 @@
 // login.js
+import axios from 'axios';
 
 export const login = async (userData) => {
     try {
-        const response = await fetch('http://localhost:8080/api/users/login', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(userData),
-        });
+        //wzorując się na poprzednim zadaniu napisz zapytanie post na odpowiedni endpoint
 
-        if (!response.ok) {
-            throw new Error('Login failed');
+
+        if (response.status === 200) {
+            alert('Zalogowano!');
         }
 
-        const data = await response.json();
-        alert('Zalogowano!');
-        return data;
+        return response.data;
     } catch (error) {
         throw new Error(error.message);
     }

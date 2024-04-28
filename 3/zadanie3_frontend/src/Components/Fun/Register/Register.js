@@ -1,21 +1,19 @@
 // register.js
+import axios from 'axios';
 
 export const register = async (userData) => {
     try {
-        const response = await fetch('http://localhost:8080/api/users/register', {
-            method: 'POST',
+        const response = await axios.post('http://localhost:8080/api/users/register', userData, {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(userData),
         });
 
-        if (!response.ok) {
+        if (response.status !== 200) {
             throw new Error('Registration failed');
         }
 
-        const data = await response.json();
-        return data;
+        return response.data;
     } catch (error) {
         throw new Error(error.message);
     }

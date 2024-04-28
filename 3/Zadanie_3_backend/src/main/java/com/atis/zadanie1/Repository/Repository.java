@@ -6,5 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 @org.springframework.stereotype.Repository
 public interface Repository extends JpaRepository<User, Long> {
-    User findByEmail(String email);
+    // Odnosząc się do klasy User zdefiniuj metodę findByEmail()
+
 }

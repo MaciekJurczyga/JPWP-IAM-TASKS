@@ -20,6 +20,7 @@ public class UserService {
     }
 
     public User getUserByEmail(String email) {
-        return userRepository.findByEmail(email);
+        // Napisz return odnoszący się do userRepository który będzię sprawdzał czy dany email jest w bazie danych
+
     }
 }
