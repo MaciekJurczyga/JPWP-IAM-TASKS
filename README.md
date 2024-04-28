@@ -38,7 +38,7 @@ Odpal aplikacje backend i frontend.
 Stwórz nowego użytkownika, zatwierdź dane i sprawdź czy pojawił się w twojej bazie używająć narzędzia MySQL workbench za pomocą komendy SELECT * FROM acc_mang_database.users_example
 <br>
 # ZADANIE 3
-**Cel zadania:**
+**Cel zadania:** <br>
 Implementacja mechanizmu logowania użytkownika. <br>
 W tym zadaniu należy dopisać kod zarówno w backendzie, jak i frontendzie. <br>
 **Polecenia:** <br>
@@ -54,7 +54,7 @@ Jeśli wszystko się udało, powinieneś zobaczyć alert: Zalogowano!
 
 # ZADANIE 4
 **Cel zadania:** <br>
-Implementacja prostych wyrażeń regularnych.
+Implementacja prostych wyrażeń regularnych. <br>
 **Polecenia:** <br>
 Należy dokończych implemetnacje metod w klasie main dodając odpowiedni pattern wyrażenia regularnego.<br>
 **Testowanie:** <br>
