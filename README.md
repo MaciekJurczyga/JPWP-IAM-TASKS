@@ -2,8 +2,8 @@
 # ORGANIZACJA 
 - link do [prezentacji](https://docs.google.com/presentation/d/1Hasui90Dc4ljEaAcKJ5oaXwTxmleM88C8cG3NKNK8OQ/edit#slide=id.p)
 - W celu wykonania zadań należy mieć zainstalowane:
-    - Apache Maven
-    - Node.js
+    - Apache Maven [tutorial](https://www.youtube.com/watch?v=YTvlb6eny_0)
+    - Node.js [tutorial](https://www.youtube.com/watch?v=1Rmb6bkGpG0)
     - MySQL + MySQL Workbench (dokładny poradnik na discord)
 - Wiedza potrzebna do wykonania zadań znajduje się na slajdach prezentacji i będzie dokładnie omawiana
 - Wszystkie projekty związane z frontendem odpala się komendą **npm start** w terminalu
