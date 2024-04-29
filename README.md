@@ -6,7 +6,8 @@
     - Node.js
     - MySQL + MySQL Workbench (dokładny poradnik na discord)
 - Wiedza potrzebna do wykonania zadań znajduje się na slajdach prezentacji i będzie dokładnie omawiana
-- Wszystkie projekty związane z frontendem odpala się komendą **npm start** w terminalu 
+- Wszystkie projekty związane z frontendem odpala się komendą **npm start** w terminalu
+- W razie błędu **'react-scripts' is not recognized as an internal or external command**, prosze wykonać komendę **npm install react-scripts**
 - W razie pytań, prosze śmiało je zadawać
   
 # ZADANIA DO CZĘŚCI PRAKTYCZNEJ
