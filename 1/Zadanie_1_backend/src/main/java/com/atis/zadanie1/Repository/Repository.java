@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 @org.springframework.stereotype.Repository
 public interface Repository extends   {
-   // nasz interfejs Repository dziedziczyć po JpaRepository<User, [typ id]>
+   // nasz interfejs Repository powinien dziedziczyć po klasie JpaRepository<User, [typ id]>
 
 
 }
